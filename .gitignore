@@ -1,0 +1,4 @@
+.DS_Store
+node_modules
+removed_working_fragments
+pubic/lib/

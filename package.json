@@ -1,0 +1,40 @@
+{
+  "name": "quiz-game",
+  "version": "1.0.0",
+  "description": "A jeopardy themed quiz game that can be modified with user input for categories, questions and answers",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "1.6.4",
+    "body-parser": "1.17.2",
+    "cors": "2.8.3",
+    "express": "4.15.3",
+    "express-jwt": "5.3.0",
+    "mongoose": "4.10.5",
+    "morgan": "1.8.2",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "welcome to a test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inHimIam/quizGame.git"
+  },
+  "keywords": [
+    "jeopardy-game",
+    "jeapordy",
+    "quiz",
+    "quiz-game",
+    "game",
+    "games"
+  ],
+  "author": "Justin Bryant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inHimIam/quizGame/issues"
+  },
+  "homepage": "https://github.com/inHimIam/quizGame#readme"
+}

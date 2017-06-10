@@ -1,0 +1,51 @@
+<section class="main-content" ng-controller="catCtrl"> <!--begin-main-content -->
+  <div class="game-board">
+    <table class="game-scene">
+      <tr class="rows categories" ng-repeat="cat in cat1">
+        <th class="category">{{ cat.name }}</th>
+      </tr> <!--end -->
+      <tr class="rows questions points" >
+        <td class="flip-container" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <button class="pointValue" type="button" name="button">
+                <h1 class="front">{{ cat.cat1.points }}</h1>
+                <p class="back">{{ cat.cat1.question }}</p>
+            </button>
+          </div>
+        </td>
+        <!-- <td class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat"b in categoriesArray">
+          <div class="flipper">
+            <button class="pointValue" type="button" name="button">
+                <h1 class="front">100</h1>
+                <p class="back">question</p>
+            </button>
+          </div>
+        </td>
+        <td class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat"c in categoriesArray">
+          <div class="flipper">
+            <button class="pointValue" type="button" name="button">
+                <h1 class="front">{{ c.cat1.points }}</h1>
+                <p class="back">{{ c.cat1.question }}</p>
+            </button>
+          </div>
+        </td>
+        <td class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat"d in categoriesArray">
+          <div class="flipper">
+            <button class="pointValue" type="button" name="button" onclick="flip()">
+                <h1 class="front">100</h1>
+                <p class="back">question</p>
+            </button>
+          </div>
+        </td>
+        <td class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat"e in categoriesArray">
+          <div class="flipper">
+            <button class="pointValue" type="button" name="button">
+                <h1 class="front">100</h1>
+                <p class="back">question</p>
+            </button>
+          </div>
+        </td> -->
+      </tr> <!-- end -->
+    </table> <!-- -->
+  </div>
+</section><!--end main-content -->
