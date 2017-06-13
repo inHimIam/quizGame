@@ -3,14 +3,14 @@
 
   function config ($routeProvider, $locationProvider) {
     $routeProvider
-      .when('/', {
+      .when('/home', {
         templateUrl: './views/home.html',
         controller: 'homeCtrl',
         controllerAs: 'vm'
       })
-      .when('/play', {
+      .when('/', {
         templateUrl: './views/play.html',
-        controller: 'categories',
+        controller: 'catCtrl',
         controllerAs: 'vm'
       })
       .when('/create-A-game', {
@@ -29,8 +29,7 @@
     });
   }
 
-  angular
-    .module('aJeopardyApp')
+  angular.module('aJeopardyApp')
     .config(['$routeProvider', '$locationProvider', config])
     .run(['$rootScope', '$location', 'authentication', run]);
 })();

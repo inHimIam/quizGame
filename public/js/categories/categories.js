@@ -1,7 +1,7 @@
 (function() {
-  angular.module('create_A_game')
+  angular.module('aJeopardyApp')
   .controller('catCtrl', catCtrl);
-  function categories($scope){
+  function catCtrl($scope){
     $scope.cat1 = [
     {
         name: 'Category 1',
