@@ -1,0 +1,21 @@
+.landing-main {
+    text-align: center;
+}
+.game-title {
+
+}
+.landing-container {
+    display: inline-flex;
+}
+.pointValue {
+
+}
+.front-land {
+    font-size: smaller;
+    top: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.back {
+    top: 0px;
+}
