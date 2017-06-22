@@ -1,0 +1,21 @@
+button {
+    position: relative;
+    left: 0px;
+    /*margin: 0px*/
+}
+.btn {
+    margin: 5px;
+    left: 25%;
+    float: left;
+}
+.form-control {
+    text-align: center;
+    height: 75px;
+    width: 205px;
+    float: left;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}.form-group {
+    display: inline-flex;
+}

@@ -1,9 +1,9 @@
 <section class="main-content" ng-controller="catCtrl"> <!-- begin-main-content -->
         <div class="game-board">
-          <div class="categories" ng-repeat="category in categoriesArray">
-            <h5 class="theCategory">{{ category.cat }}</h5>
-          </div> <!--end rows categories-->
           <div class="game-scene">
+            <div class="categories" ng-repeat="category in categoriesArray">
+              <h5 class="theCategory">{{ category.cat }}</h5>
+            </div> <!--end categories-->
               <div class="rows questions points">
                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat="row1 in firstRow">
                   <div class="flipper">
@@ -13,7 +13,7 @@
                     </button>
                   </div> <!--end flipper -->
                 </div> <!--end flip container 1 -->
-          </div> <!-- end rows questions points -->
+              </div> <!-- end rows questions points 1 -->
               <div class="rows questions points">
                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat="row2 in secondRow">
                   <div class="flipper">
@@ -23,7 +23,7 @@
                     </button>
                   </div> <!--end flipper -->
                 </div> <!--end flip container 2 -->
-          </div> <!-- end rows questions points -->
+              </div> <!-- end rows questions points 2 -->
               <div class="rows questions points">
                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat="row3 in thirdRow">
                   <div class="flipper">
@@ -33,7 +33,7 @@
                     </button>
                   </div> <!--end flipper -->
                 </div> <!--end flip container 3 -->
-          </div> <!-- end rows questions points -->
+              </div> <!-- end rows questions points 3 -->
               <div class="rows questions points">
                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat="row4 in fourthRow">
                   <div class="flipper">
@@ -43,7 +43,7 @@
                     </button>
                   </div> <!--end flipper -->
                 </div> <!--end flip container 4 -->
-          </div> <!-- end rows questions points -->
+              </div> <!-- end rows questions points 4 -->
               <div class="rows questions points">
                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');" ng-repeat="row5 in fifthRow">
                   <div class="flipper">
@@ -53,13 +53,13 @@
                     </button>
                   </div> <!--end flipper -->
                 </div> <!--end flip container 5 -->
-          </div> <!-- end rows questions points -->
-          <div class="scoreboard">
-            <div class="teamScore">
-              <h1 class="team1">Team 1</h1>
-            </div>
-            <div class="teamScore">  
-              <h1 class="team2">Team 2</h1>
+              </div> <!-- end rows questions points 5 -->
+            <div class="scoreboard">
+              <div class="teamScore">
+                <h1 class="team1">Team 1</h1>
+              </div>
+              <div class="teamScore">  
+                <h1 class="team2">Team 2</h1>
             </div>
           </div> <!-- end game-secne -->
         </div> <!-- end game-board -->
